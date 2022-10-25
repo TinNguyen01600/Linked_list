@@ -8,11 +8,11 @@ int main(void){
     add_Node(one, 20);
     add_Node(one, 30);
     add_Node(one, 40);
+    add_Node(one, 50);
     print(one);
     
-    int del = 20;
-    Node *ptrdel = searchNode(one, del);
-    print(ptrdel);
+    int del = 30;
+    Node *ptrdel = search_Node(one, del);
     remove_Node(&one, ptrdel);
     print(one);
 
